@@ -21,9 +21,9 @@ namespace GameStore.Domain.Entities
         [Display(Name = "Страна")]
         public string Country { get; set; }
 
-        [Required(ErrorMessage = "Укажите город")]
-        [Display(Name = "Город")]
-        public string City { get; set; }
+       // [Required(ErrorMessage = "Укажите город")]
+        //[Display(Name = "Город")]
+        //public string City { get; set; }
 
         
 
