@@ -63,7 +63,7 @@ namespace GameStore.Domain.Concrete
                     .AppendLine("Доставка:")
                     .AppendLine(shippingInfo.Name)
                     .AppendLine(shippingInfo.email)
-                    .AppendLine(shippingInfo.City)
+                    //.AppendLine(shippingInfo.City)
                     .AppendLine(shippingInfo.Country)
                     .AppendLine("---");
                     
